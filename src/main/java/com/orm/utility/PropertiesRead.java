@@ -10,7 +10,7 @@ public class PropertiesRead {
 
 	public PropertiesRead() {
 
-		String path = "C:\\Users\\shubh\\new workspace\\FrameworkOrangeHRM\\TestDataFile\\env1config.properties";
+		String path = System.getProperty("user.dir")+"\\TestDataFile\\env1config.properties";
 		prop = new Properties();
 
 		try {
