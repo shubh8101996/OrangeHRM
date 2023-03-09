@@ -20,7 +20,7 @@ public class TestCase2 extends BaseClass {
 		lp.enterpass("admin123");
 		lp.clickOnLoginbtn();
 //		Thread.sleep(2000);
-		Assert.assertEquals(lp.ErrorMsg(), "Invaid credentials");
+		Assert.assertEquals(lp.ErrorMsg(), "Invaid credentials"); //Assrtion used
 
 	}
 
