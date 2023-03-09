@@ -171,7 +171,7 @@ For documentation on this error, please visit: https://selenium.dev/exceptions/#
 	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:78)
 	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
 	at java.base/java.lang.reflect.Method.invoke(Method.java:567)
-
+=======
 </pre></div><a href='#' onClick='toggleBox("stack-trace837457281", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
 <div class='stack-trace' id='stack-trace837457281'><pre>org.openqa.selenium.remote.http.ConnectionFailedException: Unable to establish websocket connection to http://localhost:58486/devtools/browser/4a59c473-cc93-4f62-b763-b42a6bdc0107
 >>>>>>> c695fbecb408a8a4e2b79f15c7a6624c597d17c3
@@ -370,4 +370,4 @@ Driver info: driver.version: ChromeDriver
 >>>>>>> c695fbecb408a8a4e2b79f15c7a6624c597d17c3
 </table><p>
 </body>
-</html
+</html>
